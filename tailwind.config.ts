@@ -5,6 +5,8 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/libraries/**/*.{js,ts,jsx,tsx,mdx}",
+
   ],
   theme: {
     extend: {
@@ -13,6 +15,17 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      backgroundColor:{
+        "slight-gray":"#121212"
+      },
+      flex:{
+        "3":"3 3 0%",
+
+      },
+      
+      minWidth:{
+        "200p":"250px"
+      }
     },
   },
   plugins: [],
